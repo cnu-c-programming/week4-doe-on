@@ -2,19 +2,18 @@
 #include <ctype.h>
 
 int main() {
-  char chars[] = { 'A', 'Z', '5', '!'};
-  int n = sizeof(chars) / sizeof(chars[0]);
+    char chars[] = { 'A', 'Z', '5', '!' };
+    int n = sizeof(chars) / sizeof(chars[0]);
 
-  for (int i = 0; i < n; i++) {
-      char ch  = chars[i];
-      pritnf("%c - alpha:%d digit:%d upper:%c lower:%c\n",
-          ch,
-          isalpha(ch);
-          isdigit(ch);
-          toupper(ch):
-          tolower(ch);
-  }
+    for (int i = 0; i < n; i++) {
+        char ch = chars[i];
+        printf("%c - alpha:%d digit:%d upper:%c lower:%c\n",
+               ch,
+               isalpha(ch),
+               isdigit(ch),
+               toupper(ch),
+               tolower(ch));
+    }
 
-  return 0;
-
+    return 0;
 }
