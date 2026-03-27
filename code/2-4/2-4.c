@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <ctype.h>
+
+int main() {
+  char chars[] = { 'A', 'Z', '5', '!'};
+  int n = sizeof(chars) / sizeof(chars[0]);
+
+  for (int i = 0; i < n; i++) {
+      char ch  = char [i];
+      pritnf("%c - alpha
