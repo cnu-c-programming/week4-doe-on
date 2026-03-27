@@ -7,7 +7,7 @@ int main() {
     if (i%2 == 0)
       logger("even");
     else 
-      looger("odd");
+      logger("odd");
 
   return 0;
 }
