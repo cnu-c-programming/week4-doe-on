@@ -9,10 +9,10 @@ int main() {
     int len = strlen(a);
     printf("length of a: %d\n", len);
 
-    strcpy(c, a);
+    strcpy(a, c);
     printf("a: %s, c: %s\n", a, c);
 
-    strcat(c, b);
+    strcat(b, c);
     printf("c: %s\n", c);
 
     printf("strcmp(%s, %s) = %d\n", a, a, strcmp(a, a));
