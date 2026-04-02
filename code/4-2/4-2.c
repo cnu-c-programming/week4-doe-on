@@ -27,13 +27,8 @@ int max(int arr[], int n) {
 }
 
 int main() {
-    int n;
-    int arr[100];
-    int i;
-
-    scanf("%d", &n);
-    for (i = 0; i < n; i++)
-        scanf("%d", &arr[i]);
+    int arr[] = {3, 7, 1, 9, 4, 6};
+    int n = sizeof(arr) / sizeof(arr[0]);
 
     printf("sum: %d\n", sum(arr, n));
     printf("avg: %.2f\n", average(arr, n));
