@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <ctype.h>
+#include <ctype.h>   
 
 int main() {
     char chars[] = { 'A', 'Z', '5', '!', ' ' };
